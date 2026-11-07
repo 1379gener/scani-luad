@@ -1,0 +1,7 @@
+"step","n","deaths"
+"TCGA-CDR LUAD patients",522,188
+"with primary-tumour RNA-seq",517,187
+"with OS time > 0 and OS status",504,182
+"  excluded: stage unknown",8,2
+"  excluded: stage I",270,65
+"stage II–IV (analysis cohort)",226,115
