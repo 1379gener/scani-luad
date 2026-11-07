@@ -1,0 +1,7 @@
+"cohort","group","at_risk_3y","events_by_3y"
+"TCGA","all",33,69
+"TCGA","high",11,38
+"TCGA","low",22,31
+"GSE72094","all",68,106
+"GSE72094","high",28,64
+"GSE72094","low",40,42

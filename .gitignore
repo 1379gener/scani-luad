@@ -6,3 +6,5 @@
 .Rhistory
 *_backup*
 frozen*
+verify_output/
+COLLECT_LOG.txt

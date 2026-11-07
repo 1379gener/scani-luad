@@ -1,0 +1,13 @@
+"Origin","Group","Freq"
+"Primary tumour","Myofibroblasts (myCAF)",297
+"Normal lung","Myofibroblasts (myCAF)",15
+"Lymph node metastasis","Myofibroblasts (myCAF)",17
+"Brain metastasis","Myofibroblasts (myCAF)",10
+"Primary tumour","Matrix FBs (iCAF-like)",1106
+"Normal lung","Matrix FBs (iCAF-like)",1337
+"Lymph node metastasis","Matrix FBs (iCAF-like)",9
+"Brain metastasis","Matrix FBs (iCAF-like)",0
+"Primary tumour","FB-like cells",0
+"Normal lung","FB-like cells",1
+"Lymph node metastasis","FB-like cells",0
+"Brain metastasis","FB-like cells",200
