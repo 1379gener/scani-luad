@@ -241,7 +241,7 @@ section("8. Figure 4（226）：KM + number at risk + 3 年 ROC", {
   p4A <- ggplot(kmdf, aes(time, surv, colour = group)) + geom_step(linewidth = 0.8) +
     geom_point(data = subset(kmdf, cens > 0), shape = 3, size = 1.6, stroke = 0.6, show.legend = FALSE) +
     scale_colour_manual(values = gcol, name = "SCANI") + scale_x_continuous(breaks = BRK) + scale_y_continuous(limits = c(0, 1)) +
-    coord_cartesian(xlim = c(0, XMAX)) + annotate("text", x = XMAX * 0.7, y = 0.95, size = 3.3, label = sprintf("Log-rank p = %.2f", km_p)) +
+    coord_cartesian(xlim = c(0, XMAX)) + annotate("text", x = XMAX * 0.7, y = 0.95, size = 3.3, label = sprintf("Log-rank p = %.3f", km_p)) +
     labs(x = NULL, y = "Overall survival probability") + theme_classic(base_size = 11) +
     theme(legend.position = "top", legend.text = element_text(margin = margin(l = 4, r = 14)))
   s <- summary(fit, times = BRK, extend = TRUE)
