@@ -61,7 +61,7 @@ b4 = box(2, 3, 30, 19, "TCGA-LUAD",
 b5 = box(35, 3, 30, 19, "GSE72094",
          "Independent validation\n(microarray platform)\nCox (per SD), adjusted Cox, KM", FILL_OUT, EDGE_OUT)
 b6 = box(68, 3, 30, 19, "CPTAC-LUAD",
-         "Stage independence\n(Spearman correlation\nwith pathological stage)", FILL_OUT, EDGE_OUT)
+         "Association with stage\n(Spearman correlation\nwith pathological stage)", FILL_OUT, EDGE_OUT)
 for xc in (17, 50, 83):
     arrow(50, 29.5, xc, 22.6)
 
